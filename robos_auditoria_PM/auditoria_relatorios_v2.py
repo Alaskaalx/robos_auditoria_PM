@@ -19,7 +19,7 @@ PASTA_DOWNLOADS_TEMP = os.path.join(PASTA_AUDITORIA, "Downloads_Temp")
 os.makedirs(PASTA_AUDITORIA, exist_ok=True)
 os.makedirs(PASTA_DOWNLOADS_TEMP, exist_ok=True)
 
-URL_PAGINA = "https://atma2.pontomais.com.br/relatorios" 
+URL_PAGINA = "https://" 
 
 # --- NOVA ESTRUTURA: Separação por Hierarquia e Nomes ---
 DADOS_POR_HIERARQUIA = {
