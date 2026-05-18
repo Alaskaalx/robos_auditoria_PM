@@ -10,14 +10,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
-BASE_DIR = r"C:\Users\alcan\Desktop\Python Selenium\Auditoria Ponto mais"
+BASE_DIR = r"C:"
 
 PASTA_AUDITORIA = os.path.join(BASE_DIR, "auditoria relatorios ponto mais")
 
 if not os.path.exists(PASTA_AUDITORIA):
     os.makedirs(PASTA_AUDITORIA)
 
-URL_PAGINA = "https://atma2.pontomais.com.br/relatorios" 
+URL_PAGINA = "https://" 
 
 nomes_colaboradores = []
 
