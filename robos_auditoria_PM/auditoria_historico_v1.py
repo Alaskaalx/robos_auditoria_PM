@@ -7,13 +7,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
-BASE_DIR = r"C:\Users\alcan\Desktop\Python Selenium"
+BASE_DIR = r""
 
 PASTA_AUDITORIA = os.path.join(BASE_DIR, "auditoria LOG")
 
 os.makedirs(PASTA_AUDITORIA, exist_ok=True)
 
-URL_HISTORICO = "https://atma2.pontomais.com.br/historico"
+URL_HISTORICO = ""
 
 nomes_colaboradores = [] 
 
