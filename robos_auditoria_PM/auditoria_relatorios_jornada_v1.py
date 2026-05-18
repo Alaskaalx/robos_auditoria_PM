@@ -14,16 +14,16 @@ from selenium.common.exceptions import NoSuchElementException
 # 1. DEFINA AQUI OS SEUS LOTES E NOMES
 # ==============================================================================
 LOTES_DE_NOME = {
-    "Lote_01_Equipe_A": ["Alex Souza de Alcantara Nonato", "Carolina Coelho Ribeiro"],
-    "Lote_02_Equipe_B": ["Fernanda Talharo Ikeda"]
+    "Lote_01_Equipe_A": ["", ""],
+    "Lote_02_Equipe_B": [""]
 }
 
 # --- CONFIGURAÇÕES DE PASTAS ---
-BASE_DIR = r"C:\Users\alcan\Desktop\codigos_PY\Programas em Python\robos_auditoria_PM\resultado auditoria Relatorios Jornada"
+BASE_DIR = r"C:"
 PASTA_AUDITORIA = os.path.join(BASE_DIR, "auditoria relatorios ponto mais")
 PASTA_DOWNLOADS_TEMP = os.path.join(PASTA_AUDITORIA, "Downloads_Temp")
 CAMINHO_EXCEL = os.path.join(PASTA_AUDITORIA, "Relatorio_Downloads.xlsx")
-URL_PAGINA = "https://atma2.pontomais.com.br/relatorios"
+URL_PAGINA = ""
 
 relatorio = []
 
