@@ -12,39 +12,35 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 
 # --- CONFIGURAÇÕES DE PASTAS ---
-BASE_DIR = r"C:\Users\alcan\Desktop\Python Selenium\Auditoria Ponto mais"
+BASE_DIR = r""
 PASTA_AUDITORIA = os.path.join(BASE_DIR, "auditoria relatorios ponto mais")
 PASTA_DOWNLOADS_TEMP = os.path.join(PASTA_AUDITORIA, "Downloads_Temp")
 
 os.makedirs(PASTA_AUDITORIA, exist_ok=True)
 os.makedirs(PASTA_DOWNLOADS_TEMP, exist_ok=True)
 
-URL_PAGINA = "https://atma2.pontomais.com.br/relatorios" 
+URL_PAGINA = "https://" 
 
 # --- ESTRUTURA: Separação por Hierarquia e Nomes ---
 DADOS_POR_HIERARQUIA = {
-    "Cibely Mazalla Gibulo": [
-        "Victor Hugo Barboza Ramos",
-        "Gabriela Rodrigues da Silva",
-        "Talita Romeika Canete",
-        "Mariana Silva Massote Campos"
+    "equipe A": [
     ],
-    "Giancarlo Tardin Santos": [
-        "Maria Altinizia Santos Santana",
-        "Claudia Gabriela D Almeida Figueiredo",
-        "Edilson de Santana Gomes",
-        "Gleide Sales dos Santos",
-        "Diego Mota Macario",
-        "Carlos Alberto Amaral dos Santos"    
+    "equipe B": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""    
     ],
-    "Roberto Costa Bento Bonini": [
-        "Lucas Oliveira dos Anjos",
-        "Carolina Coelho Ribeiro",
-        "Paula Cancherini Sevo",
-        "Cibele Alves Siqueira",
-        "Samara dos Santos Rodrigues Lemos",
-        "Fernanda Talharo Ikeda",
-        "Alex Souza de Alcantara Nonato"    
+    "equipe C": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""    
     ]
 }
 
