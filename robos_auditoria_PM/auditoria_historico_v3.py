@@ -23,25 +23,9 @@ URL_PAGINA = "https://"
 
 # --- ESTRUTURA: Separação por Hierarquia e Nomes ---
 DADOS_POR_HIERARQUIA = {
-    "equipe A": [
-    ],
-    "equipe B": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""    
-    ],
-    "equipe C": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""    
-    ]
+    "equipe A": ["", "",""],
+    "equipe B": ["","","","","",""],
+    "equipe C": ["","","","","",""]
 }
 
 # --- CONFIGURAÇÃO DO NAVEGADOR ---
