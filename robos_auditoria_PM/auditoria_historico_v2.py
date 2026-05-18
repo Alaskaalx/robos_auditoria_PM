@@ -8,21 +8,21 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 # --- CONFIGURAÇÕES DE PASTAS ---
-BASE_DIR = r"C:\Users\alcan\Desktop\Python Selenium"
+BASE_DIR = r""
 PASTA_AUDITORIA = os.path.join(BASE_DIR, "auditoria LOG")
 os.makedirs(PASTA_AUDITORIA, exist_ok=True)
 
-URL_HISTORICO = "https://atma2.pontomais.com.br/historico"
+URL_HISTORICO = ""
 
 # --- NOVA ESTRUTURA: Separação por Hierarquia e Nomes ---
 DADOS_POR_HIERARQUIA = {
     "Operacoes_Norte": [
-        "João da Silva", 
-        "Maria Souza"
+        "", 
+        ""
     ],
     "Operacoes_Sul": [
-        "Carlos Eduardo", 
-        "Ana Paula"
+        "", 
+        ""
     ]
 }
 
