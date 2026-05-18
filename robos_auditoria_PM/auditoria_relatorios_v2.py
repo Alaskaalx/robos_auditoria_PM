@@ -23,29 +23,10 @@ URL_PAGINA = "https://"
 
 # --- NOVA ESTRUTURA: Separação por Hierarquia e Nomes ---
 DADOS_POR_HIERARQUIA = {
-    "Cibely Mazalla Gibulo": [
-        "Victor Hugo Barboza Ramos",
-        "Gabriela Rodrigues da Silva",
-        "Talita Romeika Canete",
-        "Mariana Silva Massote Campos"
-    ],
-    "Giancarlo Tardin Santos": [
-        "Maria Altinizia Santos Santana",
-        "Claudia Gabriela D Almeida Figueiredo",
-        "Edilson de Santana Gomes",
-        "Gleide Sales dos Santos",
-        "Diego Mota Macario",
-        "Carlos Alberto Amaral dos Santos"    
-    ],
-    "Roberto Costa Bento Bonini": [
-        "Lucas Oliveira dos Anjos",
-        "Carolina Coelho Ribeiro",
-        "Paula Cancherini Sevo",
-        "Cibele Alves Siqueira",
-        "Samara dos Santos Rodrigues Lemos",
-        "Fernanda Talharo Ikeda",
-        "Alex Souza de Alcantara Nonato"    
-    ]
+    "equipe A": ["", "",""],
+    "equipe B": ["","","","","",""],
+    "equipe C": ["","","","","",""]
+}
 }
 
 # --- CONFIGURAÇÃO DO NAVEGADOR ---
